@@ -1,4 +1,4 @@
-package oop_test1;
+package ooptest1;
 
 public class Phone {
     String brand;
