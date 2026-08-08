@@ -1,4 +1,4 @@
-package ooptest6;
+package ooptest5;
 
 public class Test {
     public static void main(String[] args) {
