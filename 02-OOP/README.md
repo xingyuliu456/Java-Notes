@@ -106,4 +106,4 @@ public class Student {
 ## 5. IDEA 快捷键
 
 * **快捷键**：`Alt + Insert`
-* **功能**：可自动生成构造函数（Constructor）以及 Getter and Setter，并可选择是否囊括所有参数。
+* **功能**：可自动生成构造函数（Constructor）以及 Getter and Setter，并可选择是否囊括所有成员变量。
