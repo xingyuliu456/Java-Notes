@@ -1,9 +1,9 @@
-package homework_method;
+package homework.method;
 
 import java.util.Scanner;
 
-import static homework_method.Test1.Max;
-import static homework_method.Test1.Sum;
+import static homework.method.Test1.Max;
+import static homework.method.Test1.Sum;
 
 public class Test2 {
     public static void main(String[] args) {

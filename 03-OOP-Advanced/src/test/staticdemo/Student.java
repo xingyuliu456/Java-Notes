@@ -1,4 +1,4 @@
-package test_static;
+package test.staticdemo;
 
 public class Student {
     String name;

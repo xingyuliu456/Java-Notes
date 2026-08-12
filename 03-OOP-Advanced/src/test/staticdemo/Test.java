@@ -1,4 +1,4 @@
-package test_static;
+package test.staticdemo;
 
 public class Test {
     public static void main(String[] args) {
