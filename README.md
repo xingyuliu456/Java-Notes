@@ -20,7 +20,7 @@ Java-Notes/
 │   ├── src/                   # 示例代码（static、工具类规范、final、枚举 enum 等）
 │   └── README.md              # 第三章详细知识点笔记
 ├── 04-OOP-Extends/            # 第四章：面向对象编程 (OOP) 高级——继承
-│   ├── src/                   # 示例代码（继承结构设计、Person类抽取、电子设备继承体系、super关键字等）
+│   ├── src/                   # 示例代码（继承设计、方法重写、构造机制、虚方法表原理、多层继承实战等）
 │   └── README.md              # 第四章详细知识点笔记
 └── README.md                  # 项目总览文档（当前文件）
 ```
@@ -34,7 +34,7 @@ Java-Notes/
 | **第一章** | [`01-HelloWorld`](./01-HelloWorld) | Java 基础语法、输入输出 (`Scanner`)、数组操作、方法定义与重载、核心运行机制与内存图解等。 | [查看第一章笔记](./01-HelloWorld/README.md) |
 | **第二章** | [`02-OOP`](./02-OOP) | 面向对象核心思想、封装性与 `private`、构造方法、`this` 的内存本质、对象创建 7 步与 GC/底层内存机制。 | [查看第二章笔记](./02-OOP/README.md) |
 | **第三章** | [`03-OOP-Advanced`](./03-OOP-Advanced) | 面向对象进阶：`static` 静态变量/静态方法、工具类设计规范、`final` 关键字与内存机制、枚举 `enum` 及内置方法等。 | [查看第三章笔记](./03-OOP-Advanced/README.md) |
-| **第四章** | [`04-OOP-Extends`](./04-OOP-Extends) | 面向对象高级：继承 (`extends`) 的概念与作用、继承结构设计原则 (is-a关系/自底向上与自顶向下)、单继承/多层继承/顶级父类 `Object`、成员变量查找就近原则与 `super` 关键字等。 | [查看第四章笔记](./04-OOP-Extends/README.md) |
+| **第四章** | [`04-OOP-Extends`](./04-OOP-Extends) | 面向对象高级：继承 (`extends`)、方法重写与 `@Override`、构造方法与 `this/super` 汇总、虚方法表底层原理与权限修饰符等。 | [查看第四章笔记](./04-OOP-Extends/README.md) |
 
 ---
 
