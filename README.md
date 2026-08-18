@@ -22,6 +22,9 @@ Java-Notes/
 ├── 04-OOP-Extends/            # 第四章：面向对象编程 (OOP) 高级——继承
 │   ├── src/                   # 示例代码（继承设计、方法重写、构造机制、虚方法表原理、多层继承实战等）
 │   └── README.md              # 第四章详细知识点笔记
+├── 05-OOP-Polymorphism/       # 第五章：面向对象编程 (OOP) 核心——多态
+│   ├── src/                   # 示例代码（多态形参、动态绑定、向下转型、instanceof 安全类型检查等）
+│   └── README.md              # 第五章详细知识点笔记
 └── README.md                  # 项目总览文档（当前文件）
 ```
 
@@ -35,6 +38,7 @@ Java-Notes/
 | **第二章** | [`02-OOP`](./02-OOP) | 面向对象核心思想、封装性与 `private`、构造方法、`this` 的内存本质、对象创建 7 步与 GC/底层内存机制。 | [查看第二章笔记](./02-OOP/README.md) |
 | **第三章** | [`03-OOP-Advanced`](./03-OOP-Advanced) | 面向对象进阶：`static` 静态变量/静态方法、工具类设计规范、`final` 关键字与内存机制、枚举 `enum` 及内置方法等。 | [查看第三章笔记](./03-OOP-Advanced/README.md) |
 | **第四章** | [`04-OOP-Extends`](./04-OOP-Extends) | 面向对象高级：继承 (`extends`)、方法重写与 `@Override`、构造方法与 `this/super` 汇总、虚方法表底层原理与权限修饰符等。 | [查看第四章笔记](./04-OOP-Extends/README.md) |
+| **第五章** | [`05-OOP-Polymorphism`](./05-OOP-Polymorphism) | 面向对象核心：多态 (`Polymorphism`)、成员访问特点（编译看左/运行看右）、向上/向下转型、`instanceof` 关键字与实战演练。 | [查看第五章笔记](./05-OOP-Polymorphism/README.md) |
 
 ---
 
