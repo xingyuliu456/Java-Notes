@@ -25,6 +25,9 @@ Java-Notes/
 ├── 05-OOP-Polymorphism/       # 第五章：面向对象编程 (OOP) 核心——多态
 │   ├── src/                   # 示例代码（多态形参、动态绑定、向下转型、instanceof 安全类型检查等）
 │   └── README.md              # 第五章详细知识点笔记
+├── 06-Abstract-Class/         # 第六章：面向对象核心——抽象类与抽象方法
+│   ├── src/                   # 示例代码（抽象基类、子类重写约束、缺省适配器模式等）
+│   └── README.md              # 第六章详细知识点笔记
 └── README.md                  # 项目总览文档（当前文件）
 ```
 
@@ -39,6 +42,7 @@ Java-Notes/
 | **第三章** | [`03-OOP-Advanced`](./03-OOP-Advanced) | 面向对象进阶：`static` 静态变量/静态方法、工具类设计规范、`final` 关键字与内存机制、枚举 `enum` 及内置方法等。 | [查看第三章笔记](./03-OOP-Advanced/README.md) |
 | **第四章** | [`04-OOP-Extends`](./04-OOP-Extends) | 面向对象高级：继承 (`extends`)、方法重写与 `@Override`、构造方法与 `this/super` 汇总、虚方法表底层原理与权限修饰符等。 | [查看第四章笔记](./04-OOP-Extends/README.md) |
 | **第五章** | [`05-OOP-Polymorphism`](./05-OOP-Polymorphism) | 面向对象核心：多态 (`Polymorphism`)、成员访问特点（编译看左/运行看右）、向上/向下转型、`instanceof` 关键字与实战演练。 | [查看第五章笔记](./05-OOP-Polymorphism/README.md) |
+| **第六章** | [`06-Abstract-Class`](./06-Abstract-Class) | 面向对象核心：抽象类 (`Abstract Class`) 与抽象方法、四大核心注意事项、缺省适配器模式 (`Default Adapter`)、构造方法初始化机制与互斥关键字排查。 | [查看第六章笔记](./06-Abstract-Class/README.md) |
 
 ---
 
