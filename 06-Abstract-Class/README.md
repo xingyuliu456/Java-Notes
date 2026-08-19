@@ -187,9 +187,12 @@ graph TD
     Adapter["🛠️ 中间适配层: FuAdapter (abstract)<br/>1. 全部空实现: @Override 空重写所有 10 个方法<br/>2. 声明为 abstract: 防止外界实例化这个空壳跳板"]
     Zi["👦 最终业务子类: Zi<br/>按需继承: 只重写关心的 method1() 与 method2()"]
 
-    Adapter -->|"extends (全部空重写)"| Fu
-    Zi -->|"extends (按需重写)"| Adapter
+    Adapter --> Fu
+    Zi --> Adapter
 ```
+
+> 📌 **图例说明**：
+> - ───▶ **实线箭头 (`-->`)**：类继承关系（`extends`）
 
 #### 代码模型演示：
 
@@ -306,11 +309,15 @@ graph TD
     Dog["🐶 Dog (具体实体子类)<br/>重写: eat() -> is eating meat.<br/>特有行为: lookHome()"]
     Test["🚀 Test (测试运行入口)"]
 
-    Cat -->|"extends (必须重写 eat)"| Animal
-    Dog -->|"extends (必须重写 eat)"| Animal
-    Test -.->|"实例化与调用"| Cat
-    Test -.->|"实例化与调用"| Dog
+    Cat --> Animal
+    Dog --> Animal
+    Test -.-> Cat
+    Test -.-> Dog
 ```
+
+> 📌 **图例说明**：
+> - ───▶ **实线箭头 (`-->`)**：类继承关系（`extends`，强制重写抽象方法）
+> - ┈┈┈▶ **虚线箭头 (`-.->`)**：测试类实例化与方法调用依赖（`Dependency`）
 
 #### 核心源码清单：
 
